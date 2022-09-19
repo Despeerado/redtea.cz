@@ -44,6 +44,7 @@
 		}
 	}
 	.card {
+		position: relative;
 		max-width: 260px;
 		width: 100%;
 		margin: 0 auto;
@@ -75,16 +76,18 @@
 }
 
 
-  .nedostupne {
-		position: relative;
-		&:before {
-			position: absolute;
-			content: '';
-			width: 100%;
-			height: 100%;
-			background-color: $primary;
-			opacity: 0.4;
-			z-index: 1;
-			border-radius: 1rem;
-		}
+.nedostupne {
+	position: relative;
+	&:before {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: $primary;
+		opacity: 0.4;
+		z-index: 1;
+		border-radius: 1rem;
 	}
+}
