@@ -1,0 +1,30 @@
+@import './variables1';
+
+@mixin border-pill-l {
+	border-top-left-radius: $br-normal;
+	border-bottom-left-radius: $br-normal;
+}
+
+@mixin border-pill-r{
+	border-top-right-radius: $br-normal;
+	border-bottom-right-radius: $br-normal;
+}
+
+@mixin border-pill {
+	border-radius: $br-normal;
+}
+
+@mixin border-pill-l-0 {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+@mixin border-pill-r-0 {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+@mixin transition-bg {
+-webkit-box-shadow: -1px 0px 24px 8px #7F7F7F; 
+box-shadow: -1px 0px 24px 8px #7F7F7F;
+}

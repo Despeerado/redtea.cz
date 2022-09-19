@@ -1,0 +1,20 @@
+/* Colors */
+
+ $primary: #766F6F;
+ $secondary: #7FD1AE;
+
+ /* Sizes */
+ $fs-normal: 1rem;
+
+ /* Border-radius */
+ $br-normal: 1rem;
+
+ $fs-big: 2.25rem;
+
+ /* navbar brand font size */
+ $navbar-brand-font-size: 2.25rem;
+ 
+ .product-hidden {
+	 visibility: hidden;
+	 transition: all 0.2s ease-in-out;
+ }

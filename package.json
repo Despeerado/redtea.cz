@@ -1,0 +1,20 @@
+{
+  "name": "lekarna.cz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch dev/index.scss:index.css",
+    "compress": "sass index.css:index.min.css --style compressed",
+    "sass-dev": "sass --watch --update --style=expanded dev/index.scss:style-dev.css",
+    "sass-prod": "sass --no-source-map --style=compressed dev/index.scss:index.css",
+    "hamburger": "sass --no-source-map --style=compressed dev/hamburgers/_sass/hamburgers/hamburgers.scss dev/hamburgers/dist/hamburgers.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "sass": "^1.54.9"
+  }
+}

@@ -1,0 +1,18 @@
+.bg-primary-lighten {
+	background-color: #B4ADAD;
+}
+.sitebreadcrumb {
+	
+	.breadcrumb {
+		background-color: lighten($primary, 10%);
+		margin: 0;
+	}
+	.breadcrumb-item.active {
+		color: white;
+	}
+	.breadcrumb-item + .breadcrumb-item::before {
+	font-family: 'FontAwesome';
+	content: "\f054" !important; 
+}
+
+}

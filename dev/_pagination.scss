@@ -1,0 +1,13 @@
+.pagination-nav {
+	.page-link {
+		border: none;
+		color: $primary;
+		&:hover {
+			color: $secondary;
+			background-color: inherit;
+		}
+	}
+	.pagination {
+		margin: 0 auto;
+	}
+}

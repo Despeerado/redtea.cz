@@ -1,0 +1,91 @@
+.social-icons {
+	max-width: 450px;
+	width: 100%;
+	i {
+		&:before {
+			font-size: 48px;
+		}
+	}
+
+	.fa-facebook {
+		color: #1877F2;
+	}
+	.fa-instagram {
+		color: black;
+	}
+	.fa-youtube {
+		color: #FF0302;
+	}
+}
+
+.sitebreadcrumb {
+
+	.breadcrumb {
+		background-color: lighten($primary, 10%);
+		background-color: #B4ADAD;
+	}
+
+	.breadcrumb-item.active {
+		color: white;
+	}
+
+}
+
+.subscribe-container {
+	.input-group {
+		justify-content: center;
+	}
+	.form-control {
+	 	@include border-pill-l;
+		width: 100%;
+		max-width: 360px;
+	}
+	.input-group-apend {
+		button {
+			@include border-pill-r;
+			@include border-pill-l-0;
+		}
+	}
+}
+
+/* HP carousel */
+#hpCarousel.carousel {
+    width: 100%;
+    height: 100%;
+
+		.carousel-inner,
+		.carousel-item {
+			width: 100%;
+			height: 100%;
+
+			.carousel-item img {
+				width: 100vw;
+    		height: 100vh;
+				object-fit: cover;
+        object-position: 50% 50%;
+			}
+		}
+
+	.carousel-indicators {
+		justify-content: space-evenly;
+		li {
+			width: 90px;
+			height: 15px;
+		}
+	}
+	.carousel-caption {
+	  transform: translateY(-50%);
+  	bottom: 0;
+  	top: 50%;
+		height: 150px;
+		padding: 1rem;
+		background: rgba(255, 255, 255, 0.44);
+		border-radius: 16px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(11.3px);
+		-webkit-backdrop-filter: blur(11.3px);
+		h1 {
+			color: black;
+		}
+	}
+}
